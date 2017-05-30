@@ -9,6 +9,40 @@ class Continent(models.Model):
         return self.Name
 
 
+class Country(models.Model):
+    Name = models.CharField(blank=False, null=False, max_length=35)
+    Continent = models.ForeignKey(Continent, blank=False, null=False)
+    Flag = models.ImageField(upload_to="Flags/", blank=True)
+
+    def __str__(self):
+        return self.Name
+
+
+class City(models.Model):
+    Name = models.CharField(blank=False, null=False, max_length=170)
+    Country = models.ForeignKey(Country, blank=False, null=False)
+
+    def __str__(self):
+        return self.Name
+
+
+class District(models.Model):
+    Name = models.CharField(blank=False, null=False, max_length=170)
+    City = models.ForeignKey(City, blank=False, null=False)
+
+    def __str__(self):
+        return self.Name + " of " + self.City.Name
+
+
+class Area(models.Model):
+    Name = models.CharField(blank=False, null=False, max_length=170)
+    Country = models.ForeignKey(Country, blank=True)
+
+    def __str__(self):
+        return self.Name
+
+
 class Travel(models.Model):
     StartDate = models.DateField
     EndDate = models.DateField
+

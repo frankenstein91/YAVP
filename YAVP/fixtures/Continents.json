@@ -47,6 +47,31 @@
     "fields": {
       "Name": "Antarctica"
     }
+  },
+  {
+    "model": "YAVP.country",
+    "pk": 1,
+    "fields": {
+      "Name": "Germany",
+      "Continent": 1,
+      "Flag": ""
+    }
+  },
+  {
+    "model": "YAVP.city",
+    "pk": 1,
+    "fields": {
+      "Name": "Leipzig",
+      "Country": 1
+    }
+  },
+  {
+    "model": "YAVP.district",
+    "pk": 1,
+    "fields": {
+      "Name": "Abtnaundorf",
+      "City": 1
+    }
   }
 ]##[
 jetbrains
