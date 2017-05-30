@@ -38,6 +38,10 @@ class AreaAdmin(admin.ModelAdmin):
     pass
 
 
+class StopInLine(admin.TabularInline):
+    model = TravelStop
+
 @admin.register(Travel)
 class TravelAdmin(admin.ModelAdmin):
+    inlines = [StopInLine]
     pass

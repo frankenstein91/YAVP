@@ -41,15 +41,16 @@ class Area(models.Model):
     def __str__(self):
         return self.Name
 
-
 class Travel(models.Model):
     Name = models.CharField(blank=False, null=False, max_length=170)
-    StartDate = models.DateField(null=True, blank=True)
-    StartCity = models.ForeignKey(City, null=True, blank=True, related_name="StartCity")
-    StartArea = models.ForeignKey(Area, null=True, blank=True, related_name="StartArea")
-    EndDate = models.DateField(null=True, blank=True)
-    EndCity = models.ForeignKey(City, null=True, blank=True, related_name="EndCity")
-    EndArra = models.ForeignKey(Area, null=True, blank=True, related_name="EndArra")
 
     def __str__(self):
         return self.Name
+
+
+class TravelStop(models.Model):
+    StartDate = models.DateTimeField(blank=False, null=False)
+    EndDate = models.DateTimeField(blank=True, null=False)
+    travel = models.ForeignKey(Travel, blank=True, null=True)
+    if not EndDate:
+        EndDate = StartDate
