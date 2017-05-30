@@ -1,0 +1,52 @@
+[
+  {
+    "model": "YAVP.continent",
+    "pk": 1,
+    "fields": {
+      "Name": "Europe"
+    }
+  },
+  {
+    "model": "YAVP.continent",
+    "pk": 2,
+    "fields": {
+      "Name": "Asia"
+    }
+  },
+  {
+    "model": "YAVP.continent",
+    "pk": 3,
+    "fields": {
+      "Name": "North America"
+    }
+  },
+  {
+    "model": "YAVP.continent",
+    "pk": 4,
+    "fields": {
+      "Name": "South America"
+    }
+  },
+  {
+    "model": "YAVP.continent",
+    "pk": 5,
+    "fields": {
+      "Name": "Africa"
+    }
+  },
+  {
+    "model": "YAVP.continent",
+    "pk": 6,
+    "fields": {
+      "Name": "Australia"
+    }
+  },
+  {
+    "model": "YAVP.continent",
+    "pk": 7,
+    "fields": {
+      "Name": "Antarctica"
+    }
+  }
+]##[
+jetbrains
