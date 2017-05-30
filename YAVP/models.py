@@ -22,6 +22,8 @@ class City(models.Model):
     Name = models.CharField(blank=False, null=False, max_length=170)
     Country = models.ForeignKey(Country, blank=False, null=False)
 
+    class Meta:
+        indexes = [models.Index(fields=["Name"], name='City_name_idx')]
     def __str__(self):
         return self.Name
 
@@ -29,6 +31,10 @@ class City(models.Model):
 class District(models.Model):
     Name = models.CharField(blank=False, null=False, max_length=170)
     City = models.ForeignKey(City, blank=False, null=False)
+
+    class Meta:
+        indexes = [models.Index(fields=["Name"], name='District_name_idx'),
+                   models.Index(fields=["Name", "City"], name='District_City_idx')]
 
     def __str__(self):
         return self.Name + " of " + self.City.Name
@@ -52,5 +58,9 @@ class TravelStop(models.Model):
     StartDate = models.DateTimeField(blank=False, null=False)
     EndDate = models.DateTimeField(blank=True, null=False)
     travel = models.ForeignKey(Travel, blank=True, null=True)
+
+    class Meta:
+        ordering = ['-StartDate']
+
     if not EndDate:
         EndDate = StartDate

@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e9a935c-42fc-4bee-8840-155774969922" name="Default" comment="You can now add a Travel in Admin">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YAVP/migrations/0002_continent.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YAVP/migrations/0003_country.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YAVP/migrations/0004_auto_20170530_1131.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YAVP/migrations/0005_auto_20170530_1139.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YAVP/migrations/0006_auto_20170530_1147.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YAVP/migrations/0007_auto_20170530_1148.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YAVP/migrations/0008_auto_20170530_1158.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YAVP/migrations/0009_auto_20170530_1200.py" afterPath="" />
+    <list default="true" id="8e9a935c-42fc-4bee-8840-155774969922" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YAVP/migrations/0002_auto_20170530_1238.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YAVP/admin.py" afterPath="$PROJECT_DIR$/YAVP/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YAVP/fixtures/Continents.json" afterPath="$PROJECT_DIR$/YAVP/fixtures/Continents.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YAVP/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/YAVP/migrations/0001_initial.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YAVP/models.py" afterPath="$PROJECT_DIR$/YAVP/models.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YAVP/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="427">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,24 +69,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Continents.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/YAVP/fixtures/Continents.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YAVP/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-              <folding>
-                <element signature="e#29#61#0" expanded="true" />
-              </folding>
+              <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,9 +101,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/YAVP/apps.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/YAVP/models.py" />
         <option value="$PROJECT_DIR$/YAVP/admin.py" />
         <option value="$PROJECT_DIR$/YAVP/fixtures/Continents.json" />
+        <option value="$PROJECT_DIR$/YAVP/models.py" />
       </list>
     </option>
   </component>
@@ -548,18 +526,26 @@
       <option name="project" value="LOCAL" />
       <updated>1496145826307</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Cleanup">
+      <created>1496147282562</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1496147282562</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1212" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.5129906" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2688465" sideWeight="0.49811321" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.4936429" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.49585405" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@YAVP_project" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32931355" sideWeight="0.4870094" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@YAVP_project" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32931355" sideWeight="0.4870094" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.49585405" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19568823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -592,7 +578,8 @@
     <MESSAGE value="Add Continents" />
     <MESSAGE value="You can now save citys" />
     <MESSAGE value="You can now add a Travel in Admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="You can now add a Travel in Admin" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -638,9 +625,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#29#61#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -838,17 +823,7 @@
     <entry file="file://$PROJECT_DIR$/YAVP/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-          <folding>
-            <element signature="e#29#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YAVP/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -869,18 +844,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YAVP/models.py">
+    <entry file="file://$PROJECT_DIR$/YAVP/fixtures/Continents.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="167">
+          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YAVP/fixtures/Continents.json">
+    <entry file="file://$PROJECT_DIR$/YAVP/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YAVP/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
