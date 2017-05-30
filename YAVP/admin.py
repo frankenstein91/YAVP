@@ -36,3 +36,8 @@ class AreaAdmin(admin.ModelAdmin):
     search_fields = ["Name"]
     list_filter = ["Country", "Country__Continent"]
     pass
+
+
+@admin.register(Travel)
+class TravelAdmin(admin.ModelAdmin):
+    pass

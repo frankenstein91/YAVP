@@ -12,7 +12,7 @@ class Continent(models.Model):
 class Country(models.Model):
     Name = models.CharField(blank=False, null=False, max_length=35)
     Continent = models.ForeignKey(Continent, blank=False, null=False)
-    Flag = models.ImageField(upload_to="Flags/", blank=True)
+    Flag = models.ImageField(upload_to="Flags/", null=True, blank=True)
 
     def __str__(self):
         return self.Name
@@ -36,13 +36,20 @@ class District(models.Model):
 
 class Area(models.Model):
     Name = models.CharField(blank=False, null=False, max_length=170)
-    Country = models.ForeignKey(Country, blank=True)
+    Country = models.ForeignKey(Country, null=True, blank=True)
 
     def __str__(self):
         return self.Name
 
 
 class Travel(models.Model):
-    StartDate = models.DateField
-    EndDate = models.DateField
+    Name = models.CharField(blank=False, null=False, max_length=170)
+    StartDate = models.DateField(null=True, blank=True)
+    StartCity = models.ForeignKey(City, null=True, blank=True, related_name="StartCity")
+    StartArea = models.ForeignKey(Area, null=True, blank=True, related_name="StartArea")
+    EndDate = models.DateField(null=True, blank=True)
+    EndCity = models.ForeignKey(City, null=True, blank=True, related_name="EndCity")
+    EndArra = models.ForeignKey(Area, null=True, blank=True, related_name="EndArra")
 
+    def __str__(self):
+        return self.Name
